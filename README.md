@@ -24,6 +24,7 @@
 　　npm install
 
 　　// 安装好依赖之后,找到 rap_server 文件夹中的 config-rap.js, 替换为你的rap项目基本配置
+  
 　　// 接口统一写在 src/api-irls/index.js 中, 接着：
 
 　　npm run start
@@ -46,4 +47,3 @@
 ├── package.json                                // 包
 ├── index.html                                  // 入口html文件
 
-```txt
