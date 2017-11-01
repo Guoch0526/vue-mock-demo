@@ -2,7 +2,10 @@
 
 ## 前言
 
-　　近期在做 vue 单页项目，采用的开发方式是前后端分离的模式。后端只提供接口，前端负责数据获取与展现，接口文档写在 [rap](http://rapapi.org/org/index.do) 上。不得不说现在这种开发方式大大提高了我们程序猿的效率。
+　　近期在做 vue 单页项目，采用的开发方式是前后端分离的模式。后端只提供接口，前端负责数据获取与展现，接口文档写在 [rap](http://rapapi.org/org/index.do) 上，它是一个可视化接口管理工具 通过分析接口结构，动态生成模拟数据，校验真实接口正确性， 围绕接口定义，通过一系列自动化工具提升我们的协作效率。
+　　基础的vue项目结构是用 vue-cli 脚手架生成的，在 config 文件夹中新增了一个请求代理配置文件 proxy-config.js 。
+　　在 rep_server 文件夹的 config-rap.js 文件中配置项目ID => projectId,rap项目ID获取如下：
+![](https://raw.githubusercontent.com/Guoch0526/Guoch0526.github.io/master/images/rap-projectId.png)
 
 ## 技术点
 
@@ -10,9 +13,9 @@
 
 ## 总体描述
 
-- [x] 接口统一管理
-- [x] 支持跨域访问
-- [x] mock 数据与测试环境分离
+- 接口统一管理
+- 支持跨域访问
+- mock 数据与测试环境分离
 
 
 ## 项目运行
