@@ -34,7 +34,7 @@
 
 ## 项目总体结构
 
-```txt
+```javascript
 ├── build                                       // webpack配置文件
 ├── config                                      // 项目(代理)配置
 ├── rap_server                                  // rap服务器配置
@@ -47,4 +47,4 @@
 │   ├── main.js                                 // 程序主入口
 ├── package.json                                // 包
 ├── index.html                                  // 入口html文件
-```txt
+```javascript
