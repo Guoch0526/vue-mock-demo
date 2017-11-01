@@ -14,7 +14,23 @@
 - [x] 支持跨域访问
 - [x] mock 数据与测试环境分离
 
-## 项目结构
+
+## 项目运行
+
+　　git clone https://github.com/Guoch0526/vue-rap-demo.git
+
+　　cd vue-rap-demo
+
+　　npm install
+
+　　// 安装好依赖之后,找到 rap_server 文件夹中的 config-rap.js, 把你的rap项目 基本配置替换
+　　// 然后接口统一写在 src/api-irls/index.js 中, 接着：
+
+　　npm run start
+
+　　大功告成!
+
+## 项目总体结构
 
 ```txt
 .
@@ -31,23 +47,5 @@
 ├── package.json                                // 包
 ├── index.html                                  // 入口html文件
 .
-
-```txt
-
-## 项目运行
-
-```txt
-git clone https://github.com/Guoch0526/vue-rap-demo.git
-
-cd vue-rap-demo
-
-npm install
-
-// 安装好依赖之后,找到 rap_server 文件夹中的 config-rap.js, 把你的rap项目 基本配置替换
-// 然后接口统一写在 src/api-irls/index.js 中, 接着：
-
-npm run start
-
-大功告成!
 
 ```txt
