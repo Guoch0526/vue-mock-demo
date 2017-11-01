@@ -16,7 +16,7 @@
 
 
 ## 项目运行
-```txt
+``` bash
 　　git clone https://github.com/Guoch0526/vue-rap-demo.git
 
 　　cd vue-rap-demo
@@ -30,12 +30,12 @@
 　　npm run start
 
 　　大功告成!
-```txt
+```
 
 ## 项目总体结构
 
-```javascript
-├── build                                       // webpack配置文件
+``` txt
+├── build                                       // webpack配置文件
 ├── config                                      // 项目(代理)配置
 ├── rap_server                                  // rap服务器配置
 ├── src                                         // 资源目录
@@ -47,4 +47,4 @@
 │   ├── main.js                                 // 程序主入口
 ├── package.json                                // 包
 ├── index.html                                  // 入口html文件
-```javascript
+```
