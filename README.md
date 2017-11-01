@@ -17,9 +17,9 @@
 
 ## 项目运行
 ``` bash
-　　git clone https://github.com/Guoch0526/vue-rap-demo.git
+　　git clone https://github.com/Guoch0526/vue-mock-demo.git
 
-　　cd vue-rap-demo
+　　cd vue-mock-demo
 
 　　npm install
 
@@ -29,7 +29,7 @@
 
 　　npm run start
 
-　　大功告成!
+　　大功告成
 ```
 
 ## 项目总体结构
