@@ -23,8 +23,8 @@
 
 　　npm install
 
-　　// 安装好依赖之后,找到 rap_server 文件夹中的 config-rap.js, 把你的rap项目 基本配置替换
-　　// 然后接口统一写在 src/api-irls/index.js 中, 接着：
+　　// 安装好依赖之后,找到 rap_server 文件夹中的 config-rap.js, 替换为你的rap项目基本配置
+　　// 接口统一写在 src/api-irls/index.js 中, 接着：
 
 　　npm run start
 
@@ -33,7 +33,6 @@
 ## 项目总体结构
 
 ```txt
-.
 ├── build                                       // webpack配置文件
 ├── config                                      // 项目(代理)配置
 ├── rap_server                                  // rap服务器配置
@@ -46,6 +45,5 @@
 │   ├── main.js                                 // 程序主入口
 ├── package.json                                // 包
 ├── index.html                                  // 入口html文件
-.
 
 ```txt
